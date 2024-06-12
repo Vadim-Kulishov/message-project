@@ -5,12 +5,24 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "concurrently": "^6.0.0",
-    "nanoid": "^3.1.20"
+    "concurrently": "^8.2.2",
+    "nanoid": "^5.0.7"
   },
   "scripts": {
     "server": "yarn --cwd server dev",
     "client": "yarn --cwd client start",
     "start": "concurrently \"yarn server\" \"yarn client\"",
-  }
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadim-Kulishov/message-project.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Vadim-Kulishov/message-project/issues"
+  },
+  "homepage": "https://github.com/Vadim-Kulishov/message-project#readme",
+  "description": ""
 }

@@ -1,3 +1,11 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "messageId": "3Pmhbp4D",
+      "createdAt": "2024-06-12T09:23:29.449Z",
+      "userId": "id27xwRA",
+      "messageText": "Привет",
+      "senderName": "user"
+    }
+  ]
 }

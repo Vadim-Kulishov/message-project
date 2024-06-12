@@ -16,6 +16,7 @@ export const ChatRoom = () => {
   // обработка события "user:leave" при выходе из комнаты
   useEffect(() => {
     return () => {
+      // eslint-disable-next-line
       sendMessage({ messageText: '', senderName: '' });
     };
   }, []);
