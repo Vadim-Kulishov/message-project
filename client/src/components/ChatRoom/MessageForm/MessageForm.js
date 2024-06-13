@@ -51,7 +51,7 @@ export const MessageForm = ({ username, sendMessage }) => {
             value={text}
             onChange={handleChangeText}
             type='text'
-            placeholder='Введите сообщение...'
+            placeholder='Message...'
           />
           <Button variant='success' type='submit'>
             <FiSend />

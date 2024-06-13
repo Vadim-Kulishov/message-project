@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 // для маршрутизации используется react-router-dom
 import { Link } from 'react-router-dom'
 // наш хук
-import { useLocalStorage } from '../../hooks'
+import { useLocalStorage } from 'hooks'
 // для стилизации используется react-bootstrap
 import { Form, Button } from 'react-bootstrap'
 

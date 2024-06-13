@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 // стили
 import { Container } from 'react-bootstrap'
 // компоненты
-import { Home } from './components/Home/Home';
-import { ChatRoom } from './components/ChatRoom/ChatRoom';
+import { Home, ChatRoom } from 'components'
 
 // маршруты
 const routes = [
@@ -15,7 +14,7 @@ const routes = [
 export const App = () => (
   <Router>
     <Container style={{ maxWidth: '512px' }}>
-      <h1 className='mt-2 text-center'>Messager Hexly</h1>
+      <h1 className='mt-2 text-center'>React Chat App</h1>
       <Switch>
         {routes.map(({ path, Component }) => (
           <Route key={path} path={path} exact>
