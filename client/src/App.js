@@ -14,7 +14,7 @@ const routes = [
 export const App = () => (
   <Router>
     <Container style={{ maxWidth: '512px' }}>
-      <h1 className='mt-2 text-center'>React Chat App</h1>
+      <h1 className='mt-2 text-center'>Message Hexlet</h1>
       <Switch>
         {routes.map(({ path, Component }) => (
           <Route key={path} path={path} exact>

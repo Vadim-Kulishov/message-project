@@ -26,7 +26,7 @@ export const UserList = ({ users }) => {
             eventKey='0'
             style={{ textDecoration: 'none' }}
           >
-            Active users{' '}
+            Активные пользователи{' '}
             <Badge variant='light' className='ml-1'>
               {activeUsers}
             </Badge>
